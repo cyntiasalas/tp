@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  table {
+	border-collapse:collapse;
+	width: 50%;
+	table-layout: auto;
+	margin:auto;
+}
+td {
+	border: 2px;  
+	padding: 5px;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    border: 2px solid black;
+    padding: 5px;
+
+    position: relative;
+  }
+  h5{
+	margin-left: 80px;
+	font: size 1px;;
+	font-weight:100;
+	text-transform:uppercase;
+	
+}
+ h3{
+	margin-left: 5px;
+	font: size 10px;;
+	font-weight:700;
+	font-style: var(--bg-preto);
+	text-align: center;
+	
+}
+h4{
+	margin-left: 5px;
+	font: size 5px;;
+	font-weight:500;
+	font-style: var(--bg-preto);
+	text-align: center;
+	
+}
+ 
+   /*cores dos elementos:*/
+   .azulesc {background-color: #1449bd;}
+   .roxo {background-color: #9f61d5;}
+   .azulcl {background-color: #61bcd5;}
+   .verde {background-color: #61d57a;}
+   .laranja {background-color: #8f3e1e;}
+   .ciano {background-color: #316377;}
+   .rosa {background-color: #ee09bc;}
+   .cinza {background-color: #67777c;}
+   .amarelo {background-color: #f8fc07;}
+   .petróleo {background-color: #1a465c;}
+
+:root{
+	--bg-preto:rgb(0,0,0);
+	--nao-metal:rgb(180,210,100);
+	--gas-nobre:rgb(100,180,225);
+	--metal-alcalino:rgb(245,200,100);
+	--metal-alcalino-terroso:rgb(240,230,90);
+	--semimetal:rgb(110,200,190);
+	--halogenio:rgb(170,225,255);
+	--outros-metais:rgb(190,210,210);
+	--metal-transicao:rgb(245,175,175);
+	--lantanideo:rgb(150,225,225);
+	--actinidio:rgb(230,190,220);
+}
+
+	
+/* FOREGROUND COLOR VARIABLES */
+.nao-metal{
+	color:var(--nao-metal);
+}
+	
+.gas-nobre{
+	color:var(--gas-nobre);
+}
+
+.metal-alcalino{
+	color:var(--metal-alcalino);
+}
+	
+.metal-alcalino-terroso{
+	color:var(--metal-alcalino-terroso);
+}
+	
+.semimetal{
+	color:var(--semimetal);
+}
+	
+.halogenio{
+	color:var(--halogenio);
+}
+	
+.outros-metais{
+	color:var(--outros-metais);
+}
+	
+.metal-transicao{
+	color:var(--metal-transicao);
+}
+	
+.lantanideo{
+	color:var(--lantanideo);
+}
+	
+.actinidio{
+	color:var(--actinidio);
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+	font-size:.8em;
+	text-align:left;	
+	flex-basis:13.5rem;
+	margin:-.25em 0 0 1em;
+}
+
+ul{
+	display:flex;
+	flex-wrap:wrap;
+  position:sticky;
+  top:1em;
+}
+
+li{
+	flex-basis:100%;
+	line-height:1.25;
+	margin-bottom:1em;	
+}
+
+li:before{
+	content:' ';
+	display:inline-block;
+	width:1em;
+	height:1em;
+	border:.125em solid;
+	border-radius:.125rem;	
+	margin-right:.5em;
+	position:relative;
+	top:.25em;
+}
+
+
+
+		
+		
+		
+		/* FOOTER */
+	
+		footer{
+			font-size:1em;
+			width:100%;
+			margin:2em 0;
+		}
+		
+		ul{
+			justify-content:center;
+		}
+		
+		li{
+			flex-basis:auto;
+			margin-bottom:0;	
+		}
+		
+		li + li{
+			margin-left:2em;	
+		}	
+	
+
+
+@media only screen and (min-width:102.5em){
+	/* GLOBAL STYLES */
+		
+		body{
+			font-size:.75em;	
+		}	
+}
